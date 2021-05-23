@@ -8,7 +8,7 @@ const Feedback = (props) => {
             <h2 className ="mb-4" >Customer Complaints Details</h2>
 
             <h5>Name of Customer</h5>
-            <p>props.feedbackDetails.name</p>
+            <p>props.feedbackDetails.fullName</p>
 
             <h5>Email</h5>
             <p>props.feedbackDetails.email</p>
