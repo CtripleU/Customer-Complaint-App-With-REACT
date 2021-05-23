@@ -14,7 +14,7 @@ const Feedback = (props) => {
             <p>props.feedbackDetails.email</p>
 
             <h5>Reason</h5>
-            <p>props.feedbackDetails.reason</p>
+            <p>props.feedbackDetails.reason</p> 
 
             <h5>Description</h5>
             <p>props.feedbackDetails.Description</p>

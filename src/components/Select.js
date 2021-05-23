@@ -4,7 +4,7 @@ const Select = (props) => {
 
     return(
         <div className="form-group">
-            <label htmlFor={props.name} className="form-label"></label>
+            <label htmlFor={props.name} className="form-label">{props.title}</label>
             <select
             id={props.name}
             name={props.name}
