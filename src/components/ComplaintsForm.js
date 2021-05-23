@@ -52,12 +52,21 @@ class ComplaintsForm extends Component {
             email: email,
             reason: reason,
             description: description,
+        };
+
+        if(
+            fullName !== "" && 
+            email !== "" && 
+            reason !== "" && 
+            description !== ""
+        ) {
+            this.setState({
+                feedbackDetails: feedbackDetails, 
+                showFeedbackDetails: true
+            });
+    
         }
-
-        this.setState({feedbackDetails: feedbackDetails, showFeedbackDetails: true})
-
-        console.log({feedbackDetails});
-    }
+    };
 
     handleFormReset = (event) => {
         event.preventDefault();
